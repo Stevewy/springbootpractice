@@ -1,9 +1,10 @@
 server:
   port: 8082
 
+#这个在thymeleafProperties里面有(里面mode为html)
 spring:
   thymeleaf:
     prefix: classpath:/templates/
     suffix: .html
     encoding: UTF-8
-    mode: HTML5
+    mode: HTML
