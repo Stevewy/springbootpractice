@@ -1,2 +1,14 @@
+#更改配置文件 yaml独有---分隔，properties可以使用多个文件
+spring:
+ profiles:
+  active: dev2
+
 server:
- port: 8081
+ port: 8080
+
+---
+ server:
+  port: 8081
+ spring:
+  profiles: dev2
+
